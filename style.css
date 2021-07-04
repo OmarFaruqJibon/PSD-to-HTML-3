@@ -120,6 +120,10 @@ blockquote {
 	margin-left: 396px;
 	margin-bottom:30px;
 }
+#cont_h3 img{
+	margin-left: 396px;
+	margin-bottom:30px;
+}
 #content_wrapper .single_content_area h2{
 	background:#E2494B;
 	color: #ffffffd9;
@@ -183,10 +187,14 @@ blockquote {
 .single_collum_3 img:last-child{
 	margin-right:0px;
 }
+.single_content_area:last-child{
+	border-top: 2px solid #DEDEDE;
+	float:left;
+}
 
 #footer_wrap{
 	background-color: #e2e2e2;
-	margin-top: 50px;
+	margin-top: 10px;
 	width: 100%; 
 	height: auto;
 }
@@ -245,12 +253,16 @@ blockquote {
 	padding: 7px;
     margin-bottom: 8px;
     border: none;
+	border-radius: 10px;
 	
 }
 .footer_last_area .message_box{
 	padding-bottom: 75px;
 }
-
+.footer_last_area img{
+	width: 75px;
+	height: 31px;
+}
 #footer_bottom p{
 	
 	font-size: 12px;
