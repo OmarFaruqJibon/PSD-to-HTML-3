@@ -1,0 +1,273 @@
+*{margin:0;padding:0}
+body{
+font-family: 'Lato', sans-serif; 
+transition:all 0.5s ease;
+-webkit-transition:all 0.5s ease;
+-moz-transition:all 0.5s ease;
+}
+body, html{
+	height:100%;
+}
+img{
+	max-width:100%;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+	margin-top:10px;
+	margin-bottom:10px
+}
+p{
+	line-height: 150%;
+	margin-bottom: 1em;
+}
+.container_full {
+	width: 100%; 
+	height: auto;
+}
+.container {
+	width:960px; 
+	margin:0 auto; 
+	display:block 
+}
+.fix{
+	overflow:hidden;
+}
+.aligncenter{
+	display:block;
+	margin:0 auto;
+}
+.floatleft{
+	float:left
+}
+.floatright{
+	float:right
+}
+
+
+/* for blockquote */
+blockquote {
+    background: url(img/quote.png) no-repeat #c7c7c7;
+    background-size: 39px 37px;
+    padding: 10px 0px 10px 46px;
+    font-family: Bell MT;
+    font-size: 17px;
+    background-position: 4px 2px;
+	margin-left: 20px;
+    border-left: 2px solid #cedc00;
+    
+}
+/*................................*/
+
+#header{
+	padding-top:20px;
+	border-bottom: 1px solid #DEDEDE;
+	min-height: 91px
+}
+#header .heead_logo h1{
+	font-family:Georgia Regular;
+	font-size:26px;
+	color:#505050;
+}
+#header .heead_logo p{
+	font-family:Georgia Regular;
+	font-size:12px;
+	color:#666666;
+}
+#header nav{
+	margin-top:16px;
+}
+#header .menu{
+	list-style:none;
+	background: #E2494B;
+	border-radius: 7px;
+}
+#header .menu li{
+	float:left;
+    padding: 10px 16px;
+}
+#header .menu li a{
+	font-family:Georgia Regular;
+	font-size:12px;
+	color:white;
+}
+#header .menu li a:hover{
+	background:#DE484A;
+	color:#EA9193;
+}
+
+#slider_top_area{
+	margin-top:26px;
+}
+#slider_top_area p{
+	font-family:Georgia Regular;
+	font-size:22px;
+	color:#333333;
+	text-align:center;
+}
+#slider-wrapper{
+	z-index:5;
+}
+
+.single_content_area{
+	border-top: 2px solid #DEDEDE;
+    height: 269px;
+}
+#cont_h2 img{
+	margin-left: 396px;
+	margin-bottom:30px;
+}
+#content_wrapper .single_content_area h2{
+	background:#E2494B;
+	color: #ffffffd9;
+    padding: 5px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+#content_wrapper .single_collum{
+	width:300px;
+	margin-right:30px;
+}
+#content_wrapper .single_collum:last-child{
+	margin-right:0px;
+}
+#content_wrapper .single_collum h2{
+	background:url(img/cont-box.png) no-repeat;
+	background-size: 30px;
+	padding-left: 44px;
+	font-family:Georgia Regular;
+	font-size:18px;
+	color:#272727c9;
+}
+#content_wrapper .single_collum p{
+	font-family:Georgia Regular;
+	font-size:13px;
+	color:#979797;
+}
+#content_wrapper .single_collum a{
+	font-family:Georgia Regular;
+	font-size:13px;
+	color:#e2494b;
+}
+#content_wrapper .single_collum_2{
+	float:left;
+	width:176px;
+	margin-right:20px;
+	height: 351px;
+}
+#content_wrapper .single_collum_2:last-child{
+	margin-right:0;
+}
+
+.single_collum_2 p{
+	font-family:Georgia Regular;
+	font-size:13px;
+	color:#979797;
+}
+.single_collum_2 a{
+	font-family:Georgia Regular;
+	font-size:13px;
+	color:#e2494b;
+}
+.single_collum_3 img{
+	margin-right:30px;
+	width:300px;
+	height:160px;
+	float:left;
+	
+}
+.single_collum_3 img:last-child{
+	margin-right:0px;
+}
+
+#footer_wrap{
+	background-color: #e2e2e2;
+	margin-top: 50px;
+	width: 100%; 
+	height: auto;
+}
+
+#footer_top{
+	margin-top: 40px;
+	float: left;
+	margin-bottom: 40px;
+}
+
+.single_footer_area{
+	float:left;
+	width: 225px;
+	margin-right: 30px;
+}
+.single_footer_area:first-child{
+	width: 450px;
+}
+.single_footer_area:last-child{
+	margin-right: 0px;
+}
+.single_footer_area h3{
+	font-family: Georgia;
+	color:#505050
+}
+.footer_left_part{
+	margin-bottom: 15px;
+}
+.footer_left_part img{
+	height: 95px;
+    width: 95px;
+    float: left;
+    margin-right: 15px;
+	border: 3px solid #8e8f8a;
+}
+.footer_left_part h3{
+	color: #e2494b;
+	font-family: Georgia;
+}
+.footer_left_part p{
+	font-size: 12px;
+    color: #999999;
+	font-family: Georgia;
+	text-align:justify;
+}
+.footer_middle_area p{
+	font-size: 12px;
+    color: #999999;
+	font-family: Georgia;
+}
+.footer_middle_area mark{
+	color:#e2494b;
+	background:none;
+}
+.footer_last_area input{
+	padding: 7px;
+    margin-bottom: 8px;
+    border: none;
+	
+}
+.footer_last_area .message_box{
+	padding-bottom: 75px;
+}
+
+#footer_bottom p{
+	
+	font-size: 12px;
+    color: #999999;
+	font-family: Georgia;
+	text-align:center;
+	padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
